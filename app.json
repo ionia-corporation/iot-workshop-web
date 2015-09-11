@@ -1,0 +1,21 @@
+{
+  "name": "Xively IoT Workshop Button",
+  "description": "Small backing application for a physical button that pub's over MQTT",
+  "keywords": [
+    "MQTT",
+    "Messaging",
+    "Xively"
+  ],
+  "website": "http://xively.com",
+  "repository": "https://github.com/ionia-corporation/iot-workshop-web.git",
+  "logo": "http://www.thingscity.com/wp-content/uploads/2013/05/xively-logo-RGB-whitebg.png",
+  "success_url": "http://xively.com/whats_xively/",
+  "scripts": {},
+  "env": {},
+  "image": "https://xively.com/wp-content/themes/xively/assets/header-logo%402x.png",
+  "addons": [
+    "sendgrid:starter",
+    "cloudmqtt:cat"
+  ],
+  "buildpacks": []
+}

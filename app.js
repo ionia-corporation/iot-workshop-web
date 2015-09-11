@@ -1,3 +1,14 @@
+Skip to content
+This repository
+Pull requests
+Issues
+Gist@ PCaponetti
+Unwatch 6
+Star 0
+Fork 0ionia - corporation / iot - workshop - web PRIVATE
+Branch: master iot - workshop - web / app.js@ PCaponettiPCaponetti 6 minutes ago initial commit of blank web app
+1 contributor
+RawBlameHistory 60 lines(49 sloc) 1.33 KB
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -58,3 +69,4 @@ app.use(function(err, req, res, next) {
 
 
 module.exports = app;
+Status API Training Shop Blog About Pricing© 2015 GitHub, Inc.Terms Privacy Security Contact Help
