@@ -11,7 +11,9 @@
   "logo": "http://www.thingscity.com/wp-content/uploads/2013/05/xively-logo-RGB-whitebg.png",
   "success_url": "http://xively.com/whats_xively/",
   "scripts": {},
-  "env": {},
+  "env": {
+    "ON_HEROKU": "true"
+  },
   "image": "https://xively.com/wp-content/themes/xively/assets/header-logo%402x.png",
   "addons": [
     "sendgrid:starter",

@@ -4,7 +4,9 @@
  * Module dependencies.
  */
 
-require('dotenv').load();
+if (process.env.ON_HEROKU !== 'true') {
+  require('dotenv').load();
+}
 var app = require('../app');
 var listener = require('./listener');
 var debug = require('debug')('iot-workshop-web:server');
