@@ -20,7 +20,8 @@
   "image": "https://xively.com/wp-content/themes/xively/assets/header-logo%402x.png",
   "addons": [
     "sendgrid:starter",
-    "cloudmqtt:cat"
+    "cloudmqtt:cat",
+    "cloudmailin:developer"
   ],
   "buildpacks": []
 }
