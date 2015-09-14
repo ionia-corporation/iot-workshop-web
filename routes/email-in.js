@@ -3,8 +3,8 @@ var router = express.Router();
 
 /* GET home page. */
 router.post('/email/in', function(req, res, next) {
-  console.log(req.body);
-  console.log(JSON.stringify(req.body));
+  console.log(req.body.plain);
+  console.log(req.body.html);
   res.send(req.body);
 });
 
