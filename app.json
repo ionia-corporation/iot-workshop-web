@@ -12,7 +12,10 @@
   "success_url": "http://xively.com/whats_xively/",
   "scripts": {},
   "env": {
-    "ON_HEROKU": "true"
+    "ON_HEROKU": "true",
+    "EMAIL_TO": "paul.caponetti@logmein.com",
+    "EMAIL_FROM": "xively-thing@xively.com",
+    "EMAIL_SUBJECT": "Got an MQTT message!"
   },
   "image": "https://xively.com/wp-content/themes/xively/assets/header-logo%402x.png",
   "addons": [
