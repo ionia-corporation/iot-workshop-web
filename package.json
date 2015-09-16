@@ -14,7 +14,8 @@
     "morgan": "~1.5.3",
     "mqtt": "^1.4.0",
     "sendgrid": "^1.9.2",
-    "serve-favicon": "~2.2.1"
+    "serve-favicon": "~2.2.1",
+    "twilio": "^2.3.0"
   },
   "devDependencies": {
     "dotenv": "^1.2.0"

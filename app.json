@@ -13,9 +13,12 @@
   "scripts": {},
   "env": {
     "ON_HEROKU": "true",
-    "EMAIL_TO": "paul.caponetti@logmein.com",
+    "EMAIL_TO": "",
     "EMAIL_FROM": "xively-thing@xively.com",
-    "EMAIL_SUBJECT": "Got an MQTT message!"
+    "EMAIL_SUBJECT": "Got an MQTT message!",
+    "TWILIO_ACCT": "",
+    "TWILIO_AUTH_TOKEN": "",
+    "SMS_TO": ""
   },
   "image": "https://xively.com/wp-content/themes/xively/assets/header-logo%402x.png",
   "addons": [
