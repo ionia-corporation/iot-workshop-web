@@ -18,7 +18,8 @@
     "EMAIL_SUBJECT": "Got an MQTT message!",
     "TWILIO_ACCT": "",
     "TWILIO_AUTH_TOKEN": "",
-    "SMS_TO": ""
+    "SMS_TO": "",
+    "SMS_FROM": ""
   },
   "image": "https://xively.com/wp-content/themes/xively/assets/header-logo%402x.png",
   "addons": [
