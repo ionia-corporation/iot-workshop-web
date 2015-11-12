@@ -1,14 +1,17 @@
 var express = require('express');
 var router = express.Router();
+var url = require('url');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
+  var parts = url.parse(process.env.CLOUDMQTT_URL);
+  var auth = parts.auth.split(':');
   res.render('index', {
     title: 'The Xively Button',
-	MQTT_SERVER_ADDR: process.env.XIVELY_BROKER_HOST,
-	MQTT_USERNAME_S: process.env.XIVELY_ACCOUNT_BROKER_USER,
-	MQTT_KEY: process.env.XIVELY_ACCOUNT_BROKER_PASSWORD,
-	MQTT_TOPIC: process.env.XIVELY_SAMPLE_DEVICE_CHANNEL,
+    MQTT_SERVER_PORT: parts.port,
+	MQTT_SERVER_ADDR: parts.hostname,
+	MQTT_USERNAME_S: auth[0],
+	MQTT_KEY: auth[1]
   });
 });
 
